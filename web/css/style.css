@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: auto 0;
+    padding: 0;
+    background: url('../images/5186702088863744.png')no-repeat center/cover;
+}
+
+#dashboard-box { 
+    width: 700px;
+    margin: auto;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    padding: 40px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+#app-title {
+    font-size: 2rem;
+    font-family: 'Acme', sans-serif;
+}
+
+#app-title::first-letter {
+    color: #1a759f;
+    font-size: 3.2rem;
+    font-family: 'Satisfy', cursive;
+}
+.input-group input {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.btn-success {
+    font-size: 1.2rem;
+}
+
+/* screen resolution on a large */
+@media  screen and (min-width: 1200px) {
+    #dashboard-box {
+        position: absolute;
+        top: 150px;
+        left: 320px;
+    }
+}
